@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'This is what I do every day.<br>Esto es lo que hago todos los días.    ',
+    descripcionCurso:
+      'En este componente formativo, se presenta el desarrollo de temáticas que le permitirán identificar expresiones básicas de empleo frecuente en inglés a partir de contextos cotidianos, permitiéndole el dominio de preposiciones de tiempo, pasatiempos, horas del día y gustos, a través de expresiones y ejemplos en el idioma inglés.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
