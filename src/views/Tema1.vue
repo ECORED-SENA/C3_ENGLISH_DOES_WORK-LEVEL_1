@@ -7,7 +7,7 @@ s<template lang="pug">
         span 1
       h1 Preposiciones de tiempo
     p.mb-5(data-aos="fade-right") Las preposiciones de tiempo son palabras que le ayudan a expresar en qué momento sucede una acción determinada. Es decir, las preposiciones de tiempo se utilizan para poder indicar la ubicación temporal de una acción, como también para describir un periodo de tiempo, como decir a qué hora sucede algo, o en cuál día de la semana, o cuando se trata de periodos de tiempo, ya sean largos o cortos.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in-up")
       .col-lg-4.mb-lg-0.mb-3
         .tarjeta-avatar
             img(src='@/assets/curso/temas/1.svg' alt='AvatarTop')
@@ -50,7 +50,7 @@ s<template lang="pug">
       .col-lg-8
         img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/4.svg', alt='')
     p.mb-5(data-aos='fade-right') Estas preposiciones de tiempo se usan de forma diferenciada, de acuerdo con las siguientes pautas:
-    .row.justify-content-center.mb-5.g-3
+    .row.justify-content-center.mb-5.g-3(data-aos="zoom-in-up")
       .col-lg-4.mb-lg-0.mb-3
         .tarjeta.tarjeta-ribbon.color-primario.bg-claro.p-3.h-100
           .tarjeta-ribbon_texto
@@ -148,6 +148,484 @@ s<template lang="pug">
                     )
             p.mb-3.ms-4 Peter y July se ven en la noche.
     p.mb-5(data-aos='fade-right') Existen algunas preposiciones de tiempo que indican la ubicación temporal de algo o alguien. Dentro de las más comunes, se encuentran:
+    TabsB.color-acento-contenido.mb-5
+      .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="By" :icono="require('@/assets/curso/temas/5.svg')")
+          .row.justify-content-center.mb-1
+            .col-lg-11
+              h3
+                span.r-2  By
+              p.mb-4 Puede utilizarse para indicar <b>tiempo, lugar o modo en que se realiza una acción.</b> Esta preposición se utiliza cuando se quiere indicar que una actividad o acción se debe realizar antes de otro evento, situación o un tiempo determinado.
+          .bg-white.p-4.mb-4
+            .row.justify-content-center.align-items-center
+              .col-lg-3.col-6.mb-3.mb-lg-0
+                img(data-aos='zoom-in-up')(src='@/assets/curso/temas/6.svg', alt='')
+              .col-lg-9
+                h4.mb-4 Ejemplos
+                .row.justify-content-center.align-items-center
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="I have to arrive by midnight. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Yo debo llegar para la medianoche.
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Bill marries by noon."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Bill se casa al mediodía.
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="I will sell the house by next month. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Yo venderé la casa el próximo mes.
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="You must finish the task by Monday."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Tu debes acabar la tarea para el Lunes.
+          .tarjeta.rounded-0.color-primario.p-2.text-white.d-inline-block.mb-4
+            h5.mb-0.me-5 En forma interrogativa:
+          .row.justify-content-center.mb-5
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Pregunta:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Does Joe send the folder by Friday?"
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 ¿Joe envía la carpeta para el viernes?
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta afirmativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Yes, Joe sends the folder by Friday."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 Si, Joe envía la carpeta para el viernes.
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta negativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="No, Joe doesn’t send the folder by Friday."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 Si, Joe envía la carpeta para el viernes.
+
+      .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="Until" :icono="require('@/assets/curso/temas/5.svg')")
+          .row.justify-content-center.mb-1
+            .col-lg-11
+              h3
+                span.r-2  Until
+              p.mb-4 Esta preposición se utiliza cuando se quiere hacer referencia a una acción que dura hasta un momento determinado.
+          .bg-white.p-4.mb-4
+            .row.justify-content-center.align-items-center
+              .col-lg-3.col-6.mb-3.mb-lg-0
+                img(data-aos='zoom-in-up')(src='@/assets/curso/temas/6.svg', alt='')
+              .col-lg-9
+                h4.mb-4 Ejemplos
+                .row.mb-5
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto=" Bill works until 5 p.m."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Bill trabaja hasta las 5 p.m.
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Joe and Mary lived together until last month. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Joe y Mary vivieron juntos hasta el mes pasado.
+                  .col-lg-8
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto=" Children must wait until it stops raining."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Los niños deben esperar hasta que deje de llover.
+          .tarjeta.rounded-0.color-primario.p-2.text-white.d-inline-block.mb-4
+            h5.mb-0.me-5 En forma interrogativa:
+          .row.justify-content-center.mb-3
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Pregunta:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Does Laury travel until the end of July?"
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 ¿Laury viaja hasta finales de Julio?
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta afirmativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Yes, Laury travels until the end of July."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 Si, Laury viaja hasta finales de Julio.
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta negativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="No, Laury doesn’t travel until the end of July. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+              p.mb-3.ms-4 No, Laury no viaja hasta finales de Julio.
+          .row.justify-content-center.mb-0
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Pregunta:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Does Laury travel until the end of July?"
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 ¿Laury viaja hasta finales de Julio?
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta afirmativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Yes, Laury travels until the end of July."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 Si, Laury viaja hasta finales de Julio.
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta negativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="No, Laury doesn’t travel until the end of July. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+              p.mb-3.ms-4 No, Laury no viaja hasta finales de Julio.
+      .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="Since " :icono="require('@/assets/curso/temas/5.svg')")
+          .row.justify-content-center.mb-1
+            .col-lg-11
+              h3
+                span.r-2 Since 
+              p.mb-4 Esta preposición se utiliza cuando se quiere indicar el momento en que inició una acción. De manera que el inicio de la acción fue en el pasado pero su fin puede ser en el presente o en el futuro. En general, puede traducirse como: desde.
+          .bg-white.p-4.mb-4
+            .row.justify-content-center.align-items-center
+              .col-lg-3.col-6.mb-3.mb-lg-0
+                img(data-aos='zoom-in-up')(src='@/assets/curso/temas/6.svg', alt='')
+              .col-lg-9
+                h4.mb-4 Ejemplos
+                .row.justify-content-center.mb-5
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Children have been waiting for you since morning. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Los niños han estado esperando por ti desde la mañana.
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="The office has been closed since last week."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 La oficina ha estado cerrada desde la semana pasada.
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Charles has been working on that project since yesterday. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Charles ha estado trabajando en ese proyecto desde ayer. 
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="They have been traveling the world since last month."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Ellos han estado viajando por el mundo desde el mes pasado. 
+          .tarjeta.rounded-0.color-primario.p-2.text-white.d-inline-block.mb-4
+            h5.mb-0.me-5 En forma interrogativa:
+          .row.justify-content-center.mb-5
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Pregunta:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Have the boys been playing in the park since 4 p.m.?"
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 ¿Los muchachos han estado jugando en el parque desde las 4 p.m.?
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta afirmativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Yes, the boys have been playing in the park since 4 p.m. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 Si, los muchachos han estado jugando en el parque desde las 4 pm
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta negativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="No, the boys haven’t been playing in the park since 4 p.m."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+              p.mb-3.ms-4 No, los muchachos no han estado jugando en el parque desde las 4 pm
+      .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="For" :icono="require('@/assets/curso/temas/5.svg')")
+          .row.justify-content-center.mb-1
+            .col-lg-11
+              h3
+                span.r-2 For 
+              p.mb-4 Esta preposición se utiliza cuando se quiere indicar una cantidad de tiempo en la que se realizó una acción.
+          .bg-white.p-4.mb-4
+            .row.justify-content-center.align-items-center
+              .col-lg-3.col-6.mb-3.mb-lg-0
+                img(data-aos='zoom-in-up')(src='@/assets/curso/temas/6.svg', alt='')
+              .col-lg-9
+                h4.mb-4 Ejemplos
+                .row.mb-5
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto=" He drove the car for five hours."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Él manejó el carro por cinco horas.
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="The baby slept only for thirty minutes. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 El bebé durmió solo por treinta minutos.
+                  .col-lg-8
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Michael worked for a year on his project."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Michael trabajó por un año en su proyecto.
+          .tarjeta.rounded-0.color-primario.p-2.text-white.d-inline-block.mb-4
+            h5.mb-0.me-5 En forma interrogativa:
+          .row.justify-content-center.mb-5
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Pregunta:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Did Susan work in that office for two years?"
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 ¿Susan trabajó en esa oficina por dos años?
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta afirmativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Yes, Susan worked in that office for two years."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 Si, Susan trabajó en esa oficina por dos años.
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta negativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="No, Susan didn’t work in that office for two years."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+              p.mb-3.ms-4 No, Susan no trabajó en esa oficina por dos años.
+      .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="Before" :icono="require('@/assets/curso/temas/5.svg')")
+          .row.justify-content-center.mb-1
+            .col-lg-11
+              h3
+                span.r-2  Before
+              p.mb-4 Esta preposición se utiliza cuando se quiere indicar que algo sucede antes que otro evento específico o determinado.
+          .bg-white.p-4.mb-5
+            .row.justify-content-center.align-items-center
+              .col-lg-3.col-6.mb-3.mb-lg-0
+                img(data-aos='zoom-in-up')(src='@/assets/curso/temas/6.svg', alt='')
+              .col-lg-9
+                h4.mb-4 Ejemplos
+                .row.mb-5
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="James reads the magazine before breakfast."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 James lee la revista antes del desayuno.
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Robert and Leo eat lunch before going to school. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Robert y Leo comen el almuerzo antes de ir al colegio.
+                  .col-lg-8
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Carmen takes a bath before leaving home."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Carmen se baña antes de salir de casa.
+          .tarjeta.rounded-0.color-primario.p-2.text-white.d-inline-block.mb-4
+            h5.mb-0.me-5 En forma interrogativa:
+          .row.justify-content-center.mb-5
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Pregunta:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Do children pray before going to sleep?"
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 ¿Los niños rezan antes de ir a dormir?
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta afirmativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Yes, children pray before going to sleep."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 Si, los niños rezan antes de ir a dormir.
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta negativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Carmen takes a bath before leaving home."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+              p.mb-3.ms-4 Carmen se baña antes de salir de casa.
+      .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="After" :icono="require('@/assets/curso/temas/5.svg')")
+          .row.justify-content-center.mb-1
+            .col-lg-11
+              h3
+                span.r-2 After
+              p.mb-4 Esta preposición se utiliza cuando se quiere indicar que una acción o evento sucede después de algo. Este algo puede ser un sustantivo, de un verbo en gerundio o de una frase.
+          .bg-white.p-4.mb-3
+            .row.justify-content-center.align-items-center
+              .col-lg-3.col-6.mb-3.mb-lg-0
+                img(data-aos='zoom-in-up')(src='@/assets/curso/temas/6.svg', alt='')
+              .col-lg-9
+                h4.mb-4 Ejemplos
+                .row.justify-content-center.mb-5
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Janeth calls him after finishing  work. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Janeth lo llama después de terminar el trabajo.
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="After mass, they spoke with the priest."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Después de la misa, ellos hablaron con el sacerdote
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Leo plays with his friends after he does his homework. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Leo juega con sus amigos después de hacer su tarea.
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Jim went to the gym after finishing his shift at the store."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Jim fue al gimnasio después de terminar su turno en la tienda. 
+          .tarjeta.rounded-0.color-primario.p-2.text-white.d-inline-block.mb-4
+            h5.mb-0.me-5 En forma interrogativa:
+          .row.justify-content-center.mb-5
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Pregunta:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Do children go to bed after saying their prayers? "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 ¿Los niños se van a la cama después de rezar sus oraciones?
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta afirmativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Yes, children go to bed after saying their prayers."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+              p.mb-3.ms-4 Si, los niños van a la cama después de rezar sus oraciones.
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta negativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="No, children don’t go to bed after saying their prayers."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+              p.mb-3.ms-4 No, los niños no van a la cama después de rezar sus oraciones.
+
+      .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="" :icono="require('@/assets/curso/temas/5.svg')")
+          .row.justify-content-center.mb-1
+            .col-lg-11
+              h3
+                span.r-2 During
+              p.mb-4 Esta preposición se utiliza cuando se quiere indicar que una acción sucede al mismo tiempo que otra, es decir, simultáneamente. Esta preposición siempre va seguida de un nombre o sustantivo.
+          .bg-white.p-4
+            .row.justify-content-center.align-items-center
+              .col-lg-3.col-6.mb-3.mb-lg-0
+                img(data-aos='zoom-in-up')(src='@/assets/curso/temas/6.svg', alt='')
+              .col-lg-9
+                h4.mb-4 Ejemplos
+                .row.justify-content-center.mb-5
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Carol lived in that house during her childhood. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Carol vivió en esa casa durante su niñez.
+                  .col-lg-6
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Children play in the schoolyard during the recess."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 
+                  .col-lg-8
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Children play in the schoolyard during the recess. "
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Los niños juegan en el patio de la escuela durante el recreo.
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="The young people had a lot of fun during the boat ride."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Los jóvenes se divirtieron mucho durante el paseo en barco.
+              .tarjeta.rounded-0.color-primario.p-2.text-white.d-inline-block.mb-4
+                h5.mb-0.me-5 En forma interrogativa:
+                .row.justify-content-center.mb-5
+                  .col-lg-4.mb-lg-0.mb-3
+                    p.fw-bold.mb-3
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                            texto=""
+                            :audio="require('@/assets/curso/audios/1.mp3')"
+                            @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                          )
+                          p.mb-3.ms-4
+                  .col-lg-4.mb-lg-0.mb-3
+                    p.fw-bold.mb-3
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                            texto=""
+                            :audio="require('@/assets/curso/audios/1.mp3')"
+                            @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                          )
+                          p.mb-3.ms-4
+                  .col-lg-4.mb-lg-0.mb-3
+                    p.fw-bold.mb-3
+                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                            texto=""
+                            :audio="require('@/assets/curso/audios/1.mp3')"
+                            @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                        )
+                        p.mb-3.ms-4
+                
+
 </template>
 
 <script>
@@ -168,4 +646,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.tabs-b__tab--active, .tabs-b__tab:hover
+  background-color: $color-acento-botones
+</style>
