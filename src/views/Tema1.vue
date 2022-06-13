@@ -583,14 +583,8 @@ s<template lang="pug">
                       :audio="require('@/assets/curso/audios/1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-                    p.mb-3.ms-4 
-                  .col-lg-8
-                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="Children play in the schoolyard during the recess. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
-                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    )
                     p.mb-3.ms-4 Los niños juegan en el patio de la escuela durante el recreo.
+                  .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="The young people had a lot of fun during the boat ride."
                       :audio="require('@/assets/curso/audios/1.mp3')"
@@ -599,31 +593,31 @@ s<template lang="pug">
                     p.mb-3.ms-4 Los jóvenes se divirtieron mucho durante el paseo en barco.
               .tarjeta.rounded-0.color-primario.p-2.text-white.d-inline-block.mb-4
                 h5.mb-0.me-5 En forma interrogativa:
-                .row.justify-content-center.mb-5
-                  .col-lg-4.mb-lg-0.mb-3
-                    p.fw-bold.mb-3
-                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                            texto=""
-                            :audio="require('@/assets/curso/audios/1.mp3')"
-                            @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          )
-                          p.mb-3.ms-4
-                  .col-lg-4.mb-lg-0.mb-3
-                    p.fw-bold.mb-3
-                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                            texto=""
-                            :audio="require('@/assets/curso/audios/1.mp3')"
-                            @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          )
-                          p.mb-3.ms-4
-                  .col-lg-4.mb-lg-0.mb-3
-                    p.fw-bold.mb-3
-                    TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                            texto=""
-                            :audio="require('@/assets/curso/audios/1.mp3')"
-                            @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                        )
-                        p.mb-3.ms-4
+          .row.justify-content-center.mb-5
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Pregunta:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Did her baby cry during Marty’s graduation ceremony?"
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 ¿Su bebé lloró durante la ceremonia de graduación de Marty?
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta afirmativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="Yes, her baby cried during Marty’s graduation ceremony."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    )
+                    p.mb-3.ms-4 Si, su bebé lloró durante la ceremonia de graduación de Marty.
+            .col-lg-4.mb-lg-0.mb-3
+              p.fw-bold.mb-3 Respuesta negativa:
+              TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                      texto="No, her baby didn’t cry during Marty’s graduation ceremony."
+                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+                  p.mb-3.ms-4 No, su bebé no lloró durante la ceremonia de graduación de Marty.
                 
 
 </template>
