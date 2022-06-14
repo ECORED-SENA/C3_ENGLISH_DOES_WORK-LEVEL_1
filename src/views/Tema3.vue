@@ -26,7 +26,7 @@
           img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/49.svg', alt='')
           TarjetaAudio.color-acento-contenido.bg-white.my-3(
                 texto=""
-                :audio="require('@/assets/curso/audios/1.mp3')"
+                :audio="require('@/assets/curso/audios/118.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
         .col-lg-4
@@ -55,32 +55,32 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="I like my pet."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/119.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Me gusta mi mascota.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="Mary likes carrot cakes."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/120.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 A Mary le gustan las tortas de zanahoria.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="They like big cats."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/121.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 A ellos les gustan los gatos grandes.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="You like chocolates."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/122.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 A ti te gustan los chocolates.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="We like spicy food."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/123.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 A nosotros nos gusta la comida picante.
@@ -91,32 +91,32 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="I love my pet."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/124.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Yo amo a mi mascota.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="Mary loves her children."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/125.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Mary ama a sus hijos.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="They love junk food."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/126.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 A ellos les encanta la comida chatarra.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="You love chocolates."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/127.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 A ti te encantan los chocolates.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="We love that music."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/128.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Nosotros amamos esa música.
@@ -127,32 +127,32 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="I enjoy time with my pet."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/129.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Me gusta el tiempo con mi mascota.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="Mary enjoys the candies."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/130.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Mary disfruta los dulces.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="They enjoy time together."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/131.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Ellos disfrutan el tiempo juntos.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="You enjoy chocolates."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/132.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Tú disfrutas los chocolates.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="We enjoy that music."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/133.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Nosotros disfrutamos esa música.
@@ -163,32 +163,32 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="I adore the beach."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/134.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Yo adoro la playa.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="Mary adores her children."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/135.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Mary adora a sus hijos.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="They adore cats."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/136.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Ellos adoran los gatos.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="You adore your car."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/137.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Tu adoras tu carro.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="We adore the virgin."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/138.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Nosotros adoramos a la virgen.
@@ -207,32 +207,32 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="I dislike your pet."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/139.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 No me gusta tu mascota.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="We dislike spicy food. "
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/140.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 A nosotros no nos gusta la comida picante.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="Mary dislikes carrot cakes."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/141.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 A Mary no le gustan las tortas de zanahoria.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="You dislike chocolates."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/142.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 A ti no te gustan los chocolates.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="They dislike big cats."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/143.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 A ellos no les gustan los gatos grandes.   
@@ -243,33 +243,33 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="I hate junk food."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/144.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Yo odio la comida chatarra.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="You hate  chocolates."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/145.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Tú odias los chocolates.
                   .col-lg-9
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                           texto="Mary hates that green dress."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/146.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Mary odia ese vestido verde.
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                           texto="We hate that loud music"
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/147.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3  Nosotros odiamos esa música estridente.    
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                           texto="They hate that musical group."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/148.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Ellos odian ese grupo musical.  
@@ -280,32 +280,32 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="I abhor Arabian food."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/149.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Yo aborrezco la comida árabe.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="Mary abhors the candies."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/150.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Mary aborrece los dulces.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="They abhor  junk food."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/151.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Ellos aborrecen la comida chatarra.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="You abhor  chocolates."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/152.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Tú aborreces los chocolates.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="We abhor that music."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/153.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Nosotros aborrecemos esa música.     
@@ -316,32 +316,32 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="I detest dirty shoes."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/154.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Yo detesto los zapatos sucios.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="Mary detests the candies."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/155.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 A Mary le gustan las tortas de zanahoria.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="They detest chinese food."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/156.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Ellos detestan la comida china.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="You detest  chocolates."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/157.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Tú detestas los chocolates.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="We detest that music."
-                          :audio="require('@/assets/curso/audios/1.mp3')"
+                          :audio="require('@/assets/curso/audios/158.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                     p.ms-4.mb-3 Nosotros detestamos esa música.     

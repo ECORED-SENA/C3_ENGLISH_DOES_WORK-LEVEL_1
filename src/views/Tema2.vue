@@ -23,7 +23,7 @@
               .p-3
                 TarjetaAudio.color-acento-contenido.bg-white.my-3(
                     texto="I brush my hair every day."
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/61.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -35,7 +35,7 @@
               .p-3
                 TarjetaAudio.color-acento-contenido.bg-white.my-3(
                     texto="In the morning, I’m going to work in the garden. "
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/62.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                 p En la mañana, yo voy a trabajar en el jardín.
@@ -46,7 +46,7 @@
               .p-3
                 TarjetaAudio.color-acento-contenido.bg-white.my-3(
                     texto="Peter goes to the park in the afternoon. "
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/63.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                 p Pedro va al parque en la tarde.
@@ -228,7 +228,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Lucas <span class='r-2'>gets up</span> at six o’clock every day."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/64.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Lucas se levanta a las seis en punto todos los días.
@@ -237,7 +237,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Jerry <span class='r-2'>brushes his teeth </span> when he gets up"
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/65.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Jerry cepilla sus dientes cuando se levanta.
@@ -246,7 +246,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Teresa <span class='r-2'> washes </span> he clothes on Fridays."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/66.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Teresa lava la ropa los viernes.
@@ -255,7 +255,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Felipe  <span class='r-2'>shaves </span> in the morning."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/67.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Felipe se afeita por las mañanas.
@@ -264,7 +264,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Paula <span class='r-2'>eats her breakfast</span> at eight in the morning."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/68.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Paula toma su desayuno a las ocho de la mañana.
@@ -273,7 +273,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Silvia <span class='r-2'>has lunch </span> at twelve o’clock."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/69.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Silvia almuerza a las doce en punto.
@@ -282,7 +282,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Javier <span class='r-2'>takes his snack </span> at three in the afternoon."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/70.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Javier toma su merienda a las tres de la tarde.
@@ -291,7 +291,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="My aunt <span class='r-2'>drinks </span> her tea at five in the afternoon."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/71.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Mi tía toma su té a las cinco de la tarde.
@@ -300,7 +300,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Miguel <span class='r-2'>goes to </span> French classes at four in the afternoon."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/72.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Miguel va a clases de francés a las siete de la noche.
@@ -309,7 +309,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Diana <span class='r-2'>washes </span> her hair on weekends."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/73.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Diana lava su cabello los fines de semana.
@@ -318,7 +318,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Her mom <span class='r-2'>combs her hair </span> every day."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/74.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Su mamá peina su cabello todos los días.
@@ -327,7 +327,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Mario <span class='r-2'>pays off </span> his credit card every month."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/75.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Mario paga su tarjeta de crédito cada mes.
@@ -336,7 +336,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Olivia  <span class='r-2'>washes </span> the dishes after lunch."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/76.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Olivia lava los platos después del almuerzo.
@@ -380,34 +380,34 @@
         .img-animation
 
       .col-lg-7
-        #carouselExampleIndicators.carousel.slide.indicators-none(data-bs-ride='carousel')
+        #carouselExampleIndicators2.carousel.slide.indicators-none(data-bs-ride='carousel')
           .carousel-indicators
-            button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='4' aria-label='Slide 5')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='5' aria-label='Slide 6')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='6' aria-label='Slide 7')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='7' aria-label='Slide 8')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='8' aria-label='Slide 9')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='9' aria-label='Slide 10')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='10' aria-label='Slide 11')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='11' aria-label='Slide 12')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='12' aria-label='Slide 13')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='13' aria-label='Slide 14')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='14' aria-label='Slide 15')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='15' aria-label='Slide 16')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='16' aria-label='Slide 17')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='17' aria-label='Slide 18')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='18' aria-label='Slide 19')
+            button.active(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='1' aria-label='Slide 2')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='2' aria-label='Slide 3')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='3' aria-label='Slide 4')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='4' aria-label='Slide 5')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='5' aria-label='Slide 6')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='6' aria-label='Slide 7')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='7' aria-label='Slide 8')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='8' aria-label='Slide 9')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='9' aria-label='Slide 10')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='10' aria-label='Slide 11')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='11' aria-label='Slide 12')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='12' aria-label='Slide 13')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='13' aria-label='Slide 14')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='14' aria-label='Slide 15')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='15' aria-label='Slide 16')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='16' aria-label='Slide 17')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='17' aria-label='Slide 18')
+            button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='18' aria-label='Slide 19')
           .carousel-inner
             .carousel-item.active.px-5.tarjeta.rounded-0.color-acento-contenido
               .row.justify-content-center.align-items-center.my-4
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Charles <span class='r-2'> goes to the movies </span> on weekends."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/77.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Carlos va al cine los fines de semana.
@@ -416,7 +416,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Your mom <span class='r-2'>makes cookies </span> in the afternoon."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/78.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Tu mamá hace galletas por la tarde. 
@@ -425,7 +425,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Marlene <span class='r-2'> draws</span> in the studio."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/79.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Marlene dibuja en el estudio.
@@ -434,7 +434,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="John <span class='r-2'>  plays video games.</span>"
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/80.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Juan juega videojuegos.
@@ -443,7 +443,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Richard <span class='r-2'>reads </span> a storybook."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/81.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Ricardo lee un libro de cuentos.
@@ -452,7 +452,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Sam <span class='r-2'> goes to the beach</span> on Sundays."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/82.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Sam va a la playa los domingos.
@@ -461,7 +461,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Susana <span class='r-2'>swims </span> in the pool."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/83.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Susana nada en la piscina.
@@ -470,7 +470,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Lucy <span class='r-2'>paints </span> with watercolors."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/84.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Lucy pinta con acuarelas.
@@ -479,7 +479,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Liz <span class='r-2'>knits </span> hats for her baby."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/85.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Liz teje gorritos para su bebé.
@@ -488,7 +488,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Pablo <span class='r-2'>plays chess </span> with his friends."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/86.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Pablo juega ajedrez con sus amigos. 
@@ -497,7 +497,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Celine <span class='r-2'>reads </span> fashion magazines."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/87.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Celine lee revistas de moda.
@@ -506,7 +506,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Kristhine <span class='r-2'>does crossword puzzles </span> in her bedroom."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/88.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Cristina hace crucigramas en su dormitorio.
@@ -515,7 +515,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Amadeus <span class='r-2'>plays the piano </span> every night."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/89.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Amadeus toca el piano todas las noches.
@@ -524,7 +524,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Cervando <span class='r-2'>watches the birds </span>  in the countryside."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/90.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Cervando mira los pájaros en el campo.
@@ -533,7 +533,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="You <span class='r-2'>play soccer </span> in the backyard of your house."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/91.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Ustedes juegan fútbol en el patio de su casa.
@@ -542,7 +542,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Michell <span class='r-2'>rides a bike </span> in the afternoons."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/92.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Michell monta bicicleta por las tardes.
@@ -551,7 +551,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Melany  <span class='r-2'>plays </span> with her dolls in the afternoon."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/93.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Melany juega con sus muñecas en la tarde.
@@ -560,7 +560,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Lia <span class='r-2'>listens to music </span> in her bedroom."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/94.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Lia escucha música en su cuarto.
@@ -569,16 +569,16 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Felix <span class='r-2'>watches TV </span> every night."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/95.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Felix ve televisión todas las noches.
 
               
-          button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
+          button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide='prev')
             span.carousel-control-prev-icon(aria-hidden='true')
             span.visually-hidden Previous
-          button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
+          button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide='next')
             span.carousel-control-next-icon(aria-hidden='true')
             span.visually-hidden Next
     Separador
@@ -601,7 +601,7 @@
                   h4.ms-4.mb-1 7:00
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="It’s seven o’clock."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/96.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Son las siete en punto.
@@ -612,7 +612,7 @@
                     p.fw-bold.mb-0 Cuando es en la mañana, se señala:
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto=" It´s seven o’clock in the morning."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/97.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Son las siete de la mañana.
@@ -622,7 +622,7 @@
                     p.fw-bold.mb-0 Cuando es en la noche, se dice:
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="It´s seven o’clock at night."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/98.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Son las siete de la noche.
@@ -639,21 +639,21 @@
                 .col-lg-6
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="It’s five after seven."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/99.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Son cinco después de las siete.
                 .col-lg-6
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="It’s five minutes after seven."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/100.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Son cinco minutos después de las siete.
                 .col-lg-6
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="It’s seven-five."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/101.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Son las siete y cinco
@@ -669,21 +669,21 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s ten after seven."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/102.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Son diez después de las siete.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s ten minutes after seven."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/103.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Son diez minutos después de las siete.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s seven-ten. "
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/104.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Son las siete y diez.
@@ -699,14 +699,14 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s a quarter after seven."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/105.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Son las siete y cuarto.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s seven-fifteen."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/106.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Son las siete y quince.
@@ -722,14 +722,14 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s half past seven."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/107.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Son las siete y media.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s seven thirty."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/108.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Son las siete y treinta.
@@ -745,21 +745,21 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s seven thirty-five."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/109.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Son las siete y treinta y cinco.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s twenty-five minutes to eight."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/110.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Faltan veinticinco minutos para las ocho.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s twenty-five to eight."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/111.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Faltan veinticinco para las ocho.
@@ -776,21 +776,21 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s seven forty-five."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/112.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Son las siete y cuarenta y cinco.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s a quarter to eight."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/113.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Son las ocho menos cuarto.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
-                        texto="It’s twenty-five to eight."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        texto="It’s fifteen minutes to eight."
+                        :audio="require('@/assets/curso/audios/114.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Faltan quince minutos para las ocho.
@@ -807,21 +807,21 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s seven fifty-five. "
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/115.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Son las siete y cincuenta y cinco.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s five minutes to eight."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/116.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Faltan cinco minutos para las ocho.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                         texto="It’s five to eight."
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/117.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Faltan cinco para las ocho.

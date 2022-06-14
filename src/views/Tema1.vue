@@ -27,7 +27,7 @@ s<template lang="pug">
               .p-3
                 TarjetaAudio.color-acento-contenido.bg-white.my-3(
                     texto="Milly goes to the gym <span class='f-4'>on </span> Friday morning. "
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/2.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                 p Milly va al gimnasio <b>los</b> viernes <b>en</b> la mañana.
@@ -38,7 +38,7 @@ s<template lang="pug">
               .p-3
                 TarjetaAudio.color-acento-contenido.bg-white.my-3(
                     texto="I always leave home <span class='f-4 , color--3'>at </span> 7 o’clock. "
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/3.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                 p Yo siempre salgo de casa <b>a las</b> 7 en punto.
@@ -71,19 +71,19 @@ s<template lang="pug">
           .tarjeta.color-primario.p-3
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto=" Joan loves to play in the evening. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/4.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
             p.mb-3.ms-4 A Joan le encanta jugar por la noche.
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto=" Luisa eats hot dog in the morning."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/5.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
             p.mb-3.ms-4 Luisa come perro caliente en la mañana.
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="The Second World War ended in 1945. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/6.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
             p.mb-3.ms-4 The Second World War ended in 1945.
@@ -103,19 +103,19 @@ s<template lang="pug">
           .tarjeta.color-primario.p-3
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Pablo is free on Saturdays. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/7.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
             p.mb-3.ms-4 Pablo está libre los sábados.
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Monique will arrive from Paris on Sunday. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/8.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
             p.mb-3.ms-4 Monique llegará de París el domingo.
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto=" Paola dances very much on her birthday."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/9.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
             p.mb-3.ms-4 Paola baila mucho en su cumpleaños.
@@ -131,19 +131,19 @@ s<template lang="pug">
           .tarjeta.color-primario.p-3
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="He leaves school at 5 in the afternoon. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/10.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
             p.mb-3.ms-4 Él sale del colegio a las 5 de la tarde.
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Ann eats her snack at 3 o’clock. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/11.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
             p.mb-3.ms-4 Ann come su merienda a las 3 en punto.
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Peter and July meet at night. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/12.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
             p.mb-3.ms-4 Peter y July se ven en la noche.
@@ -165,26 +165,26 @@ s<template lang="pug">
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="I have to arrive by midnight. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/13.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Yo debo llegar para la medianoche.
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Bill marries by noon."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/14.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Bill se casa al mediodía.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="I will sell the house by next month. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/15.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Yo venderé la casa el próximo mes.
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="You must finish the task by Monday."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/16.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Tu debes acabar la tarea para el Lunes.
@@ -195,7 +195,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Pregunta:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Does Joe send the folder by Friday?"
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/17.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 ¿Joe envía la carpeta para el viernes?
@@ -203,7 +203,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Respuesta afirmativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Yes, Joe sends the folder by Friday."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/18.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 Si, Joe envía la carpeta para el viernes.
@@ -211,7 +211,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Respuesta negativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="No, Joe doesn’t send the folder by Friday."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/19.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 Si, Joe envía la carpeta para el viernes.
@@ -232,21 +232,21 @@ s<template lang="pug">
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto=" Bill works until 5 p.m."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/20.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Bill trabaja hasta las 5 p.m.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Joe and Mary lived together until last month. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/21.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Joe y Mary vivieron juntos hasta el mes pasado.
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto=" Children must wait until it stops raining."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/22.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Los niños deben esperar hasta que deje de llover.
@@ -257,7 +257,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Pregunta:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Does Laury travel until the end of July?"
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/23.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 ¿Laury viaja hasta finales de Julio?
@@ -265,7 +265,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Respuesta afirmativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Yes, Laury travels until the end of July."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/24.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 Si, Laury viaja hasta finales de Julio.
@@ -273,7 +273,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Respuesta negativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="No, Laury doesn’t travel until the end of July. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/25.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               p.mb-3.ms-4 No, Laury no viaja hasta finales de Julio.
@@ -281,27 +281,27 @@ s<template lang="pug">
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Pregunta:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="Does Laury travel until the end of July?"
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      texto="Are the tools available now?"
+                      :audio="require('@/assets/curso/audios/26.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-              p.mb-3.ms-4 ¿Laury viaja hasta finales de Julio?
+              p.mb-3.ms-4 Están disponibles las herramientas ahora?
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Respuesta afirmativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="Yes, Laury travels until the end of July."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      texto="Yes, the tools are available now. "
+                      :audio="require('@/assets/curso/audios/27.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-              p.mb-3.ms-4 Si, Laury viaja hasta finales de Julio.
+              p.mb-3.ms-4 Si, las herramientas están disponibles ahora.
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Respuesta negativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="No, Laury doesn’t travel until the end of July. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      texto="No, the tools aren’t available until tomorrow.  "
+                      :audio="require('@/assets/curso/audios/28.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
-              p.mb-3.ms-4 No, Laury no viaja hasta finales de Julio.
+              p.mb-3.ms-4 No, las herramientas no están disponibles hasta mañana.
       .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="Since " :icono="require('@/assets/curso/temas/5.svg')")
           .row.justify-content-center.mb-1
             .col-lg-11
@@ -318,26 +318,27 @@ s<template lang="pug">
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Children have been waiting for you since morning. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/29.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Los niños han estado esperando por ti desde la mañana.
+                    // //todo! ESTE AUDIO ESTA ERRADO, SE NECESITA CAMBIAR 
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="The office has been closed since last week."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/30.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 La oficina ha estado cerrada desde la semana pasada.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Charles has been working on that project since yesterday. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/31.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Charles ha estado trabajando en ese proyecto desde ayer. 
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="They have been traveling the world since last month."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/32.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Ellos han estado viajando por el mundo desde el mes pasado. 
@@ -348,7 +349,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Pregunta:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Have the boys been playing in the park since 4 p.m.?"
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/33.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 ¿Los muchachos han estado jugando en el parque desde las 4 p.m.?
@@ -356,7 +357,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Respuesta afirmativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Yes, the boys have been playing in the park since 4 p.m. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/34.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 Si, los muchachos han estado jugando en el parque desde las 4 pm
@@ -364,7 +365,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Respuesta negativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="No, the boys haven’t been playing in the park since 4 p.m."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/35.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               p.mb-3.ms-4 No, los muchachos no han estado jugando en el parque desde las 4 pm
@@ -384,21 +385,21 @@ s<template lang="pug">
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto=" He drove the car for five hours."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/36.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Él manejó el carro por cinco horas.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="The baby slept only for thirty minutes. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/37.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 El bebé durmió solo por treinta minutos.
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Michael worked for a year on his project."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/38.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Michael trabajó por un año en su proyecto.
@@ -409,7 +410,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Pregunta:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Did Susan work in that office for two years?"
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/39.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 ¿Susan trabajó en esa oficina por dos años?
@@ -417,7 +418,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Respuesta afirmativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Yes, Susan worked in that office for two years."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/40.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 Si, Susan trabajó en esa oficina por dos años.
@@ -425,7 +426,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Respuesta negativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="No, Susan didn’t work in that office for two years."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/41.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               p.mb-3.ms-4 No, Susan no trabajó en esa oficina por dos años.
@@ -445,21 +446,21 @@ s<template lang="pug">
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="James reads the magazine before breakfast."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/42.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 James lee la revista antes del desayuno.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Robert and Leo eat lunch before going to school. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/43.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Robert y Leo comen el almuerzo antes de ir al colegio.
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Carmen takes a bath before leaving home."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/44.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Carmen se baña antes de salir de casa.
@@ -470,7 +471,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Pregunta:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Do children pray before going to sleep?"
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/45.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 ¿Los niños rezan antes de ir a dormir?
@@ -478,7 +479,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Respuesta afirmativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Yes, children pray before going to sleep."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/46.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 Si, los niños rezan antes de ir a dormir.
@@ -486,7 +487,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Respuesta negativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Carmen takes a bath before leaving home."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/47.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               p.mb-3.ms-4 Carmen se baña antes de salir de casa.
@@ -506,26 +507,26 @@ s<template lang="pug">
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Janeth calls him after finishing  work. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/48.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Janeth lo llama después de terminar el trabajo.
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="After mass, they spoke with the priest."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/50.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Después de la misa, ellos hablaron con el sacerdote
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Leo plays with his friends after he does his homework. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/49.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Leo juega con sus amigos después de hacer su tarea.
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Jim went to the gym after finishing his shift at the store."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/51.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Jim fue al gimnasio después de terminar su turno en la tienda. 
@@ -536,7 +537,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Pregunta:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Do children go to bed after saying their prayers? "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/52.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 ¿Los niños se van a la cama después de rezar sus oraciones?
@@ -544,7 +545,7 @@ s<template lang="pug">
               p.fw-bold.mb-3 Respuesta afirmativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Yes, children go to bed after saying their prayers."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/53.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
               p.mb-3.ms-4 Si, los niños van a la cama después de rezar sus oraciones.
@@ -552,18 +553,18 @@ s<template lang="pug">
               p.fw-bold.mb-3 Respuesta negativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="No, children don’t go to bed after saying their prayers."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/54.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               p.mb-3.ms-4 No, los niños no van a la cama después de rezar sus oraciones.
 
-      .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="" :icono="require('@/assets/curso/temas/5.svg')")
+      .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="During" :icono="require('@/assets/curso/temas/5.svg')")
           .row.justify-content-center.mb-1
             .col-lg-11
               h3
                 span.r-2 During
               p.mb-4 Esta preposición se utiliza cuando se quiere indicar que una acción sucede al mismo tiempo que otra, es decir, simultáneamente. Esta preposición siempre va seguida de un nombre o sustantivo.
-          .bg-white.p-4
+          .bg-white.p-4.mb-4
             .row.justify-content-center.align-items-center
               .col-lg-3.col-6.mb-3.mb-lg-0
                 img(data-aos='zoom-in-up')(src='@/assets/curso/temas/6.svg', alt='')
@@ -573,21 +574,21 @@ s<template lang="pug">
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Carol lived in that house during her childhood. "
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/55.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Carol vivió en esa casa durante su niñez.
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Children play in the schoolyard during the recess."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/56.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Los niños juegan en el patio de la escuela durante el recreo.
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="The young people had a lot of fun during the boat ride."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/57.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-3.ms-4 Los jóvenes se divirtieron mucho durante el paseo en barco.
@@ -598,26 +599,26 @@ s<template lang="pug">
               p.fw-bold.mb-3 Pregunta:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Did her baby cry during Marty’s graduation ceremony?"
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/58.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-                    p.mb-3.ms-4 ¿Su bebé lloró durante la ceremonia de graduación de Marty?
+              p.mb-3.ms-4 ¿Su bebé lloró durante la ceremonia de graduación de Marty?
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Respuesta afirmativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Yes, her baby cried during Marty’s graduation ceremony."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/59.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-                    p.mb-3.ms-4 Si, su bebé lloró durante la ceremonia de graduación de Marty.
+              p.mb-3.ms-4 Si, su bebé lloró durante la ceremonia de graduación de Marty.
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Respuesta negativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="No, her baby didn’t cry during Marty’s graduation ceremony."
-                      :audio="require('@/assets/curso/audios/1.mp3')"
+                      :audio="require('@/assets/curso/audios/60.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
-                  p.mb-3.ms-4 No, su bebé no lloró durante la ceremonia de graduación de Marty.
+              p.mb-3.ms-4 No, su bebé no lloró durante la ceremonia de graduación de Marty.
                 
 
 </template>
