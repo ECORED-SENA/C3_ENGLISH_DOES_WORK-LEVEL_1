@@ -79,7 +79,7 @@
             span.r-3.fst-italic.fw-bold to get a bath
             br
             | (bañarse)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/14.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/14.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
           p.text-center
