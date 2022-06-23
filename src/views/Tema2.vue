@@ -57,144 +57,144 @@
       br
       | Algunos verbos que se utilizan para expresar rutinas personales son:
     SlyderF.slyder-arrows.mb-5(columnas="col-lg-6 col-xl-2")
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/11.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/11.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/160.mp3')")
           p.text-center
-            span.r-3.fst-italic.fw-bold o get up
+            span.r-3.fst-italic.fw-bold to get up
             br
             | (levantarse)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/12.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/12.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/161.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to brush
 
             br
             |  (cepillar)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/13.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/13.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/162.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to get a bath
             br
             | (bañarse)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/14.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/14.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/163.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to wash
             br
             | (lavar)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/15.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/15.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/164.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to get dressed
             br
             | (vestirse)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/16.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/16.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/165.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to have breakfast
             br
             | (desayunar)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/17.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/17.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/166.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to shave
             br
             | (afeitarse)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/18.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/18.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/167.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to make the bed
             br
             |  (hacer la cama)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/19.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/19.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/168.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to go to work
             br
             | (ir a trabajar)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/20.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/20.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/169.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to take the bus
             br
             | (tomar el autobús)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/21.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/21.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/170.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to garden
             br
             | (cultivar, cuidar plantas)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/22.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/22.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/171.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to take photos
             br
             | (sacar fotos) 
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/23.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/23.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/172.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to drive a car
             br
             | (conducir el carro)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/24.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/24.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/173.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to have lunch
             br
             | (comer / almorzar)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/25.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/25.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/174.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to cook
             br
             |(cocinar) 
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/175.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to listen to music
             br
             | (escuchar música)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/27.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/27.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/176.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to read a book
  
             br
             | (leer un libro)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/28.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/28.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/177.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to write
             br
             | (escribir)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/29.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/29.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/178.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to have dinner
             br
             | (cenar)
-      .tarjeta.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/30.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/30.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.mp3')")
+          Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/179.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold to go to bed
             br
@@ -896,4 +896,8 @@ export default {
   opacity: 1
   border: 0px
   background-image: url("../assets/curso/temas/flecha-blanca.svg") !important
+.tarjeta-bg
+  bacrkground-repeat: no-repeat
+  background-size: cover
+  background-position: center
 </style>

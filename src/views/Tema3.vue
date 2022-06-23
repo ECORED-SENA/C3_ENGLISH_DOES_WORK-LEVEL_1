@@ -344,7 +344,13 @@
                           :audio="require('@/assets/curso/audios/158.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
-                    p.ms-4.mb-3 Nosotros detestamos esa música.     
+                    p.ms-4.mb-3 Nosotros detestamos esa música.  
+    p.mb-5(data-aos='fade-right') Además, también se pueden expresar preferencias 
+      span.r-3.fst-italic (likes and dislikes) 
+      | por acciones, que vienen indicadas por verbos.  
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/0s4z_tImzYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
