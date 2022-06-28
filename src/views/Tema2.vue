@@ -155,7 +155,7 @@
           p.text-center
             span.r-3.fst-italic.fw-bold to have lunch
             br
-            | (comer / almorzar)
+            | (comer/almorzar)
       .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/25.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/174.mp3')")
@@ -228,7 +228,7 @@
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="Lucas <span class='r-2'>gets up</span> at six o’clock every day."
-                      :audio="require('@/assets/curso/audios/64.mp3')"
+                      :audio="require('@/assets/curso/audios/180.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                   p Lucas se levanta a las seis en punto todos los días.
@@ -236,7 +236,7 @@
               .row.justify-content-center.align-items-center.my-4
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
-                      texto="Jerry <span class='r-2'>brushes his teeth </span> when he gets up"
+                      texto="Jerry <span class='r-2'>brushes his teeth </span> when he gets up."
                       :audio="require('@/assets/curso/audios/65.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
@@ -245,7 +245,7 @@
               .row.justify-content-center.align-items-center.my-4
                 .col-9
                   TarjetaAudio.color-acento-contenido.bg-white.my-3(
-                      texto="Teresa <span class='r-2'> washes </span> he clothes on Fridays."
+                      texto="Teresa <span class='r-2'> washes </span> her clothes on Fridays."
                       :audio="require('@/assets/curso/audios/66.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
@@ -303,7 +303,7 @@
                       :audio="require('@/assets/curso/audios/72.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-                  p Miguel va a clases de francés a las siete de la noche.
+                  p Miguel va a clases de francés a las cuatro de la tarde.
             .carousel-item.px-5.tarjeta.rounded-0.color-primario
               .row.justify-content-center.align-items-center.my-4
                 .col-9

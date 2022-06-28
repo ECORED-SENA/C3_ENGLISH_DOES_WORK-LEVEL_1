@@ -37,7 +37,7 @@
           .imagen-absolute
             img(data-aos='zoom-in-up')(src='@/assets/curso/temas/51.svg', alt='')
         .col-lg-10
-          p(data-aos='fade-right') Como se puede observar en las opiniones de las personas que participan en el diálogo, ellos expresan lo que prefieren y lo que les disgusta o rechazan, empleando diferentes verbos, entre los que están: to want, to like, to love, to dislike, to adore, to enjoy. Pero estos no son los únicos verbos que pueden utilizarse para expresar agrado o desagrado. 
+          p(data-aos='fade-right') Como se puede observar en las opiniones de las personas que participan en el diálogo, ellos expresan lo que prefieren y lo que les disgusta o rechazan, empleando diferentes verbos, entre los que están: <em>to want, to like, to love, to dislike, to adore, to enjoy.</em> Pero estos no son los únicos verbos que pueden utilizarse para expresar agrado o desagrado. 
     p.mb-5(data-aos='fade-right') A continuación, se presentan una serie de verbos que permiten expresar a las personas lo que les gusta y lo que les disgusta.
     .row.justify-content-center.mb-5
       .col-lg-6
@@ -130,7 +130,7 @@
                           :audio="require('@/assets/curso/audios/129.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
-                    p.ms-4.mb-3 Me gusta el tiempo con mi mascota.
+                    p.ms-4.mb-3 Yo disfruto el tiempo con mi mascota.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="Mary enjoys the candies."
                           :audio="require('@/assets/curso/audios/130.mp3')"
@@ -262,7 +262,7 @@
                         )
                     p.ms-4.mb-3 Mary odia ese vestido verde.
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                          texto="We hate that loud music"
+                          texto="We hate that loud music."
                           :audio="require('@/assets/curso/audios/147.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
@@ -325,7 +325,7 @@
                           :audio="require('@/assets/curso/audios/155.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
-                    p.ms-4.mb-3 A Mary le gustan las tortas de zanahoria.
+                    p.ms-4.mb-3 Mary detesta los dulces.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                           texto="They detest chinese food."
                           :audio="require('@/assets/curso/audios/156.mp3')"

@@ -140,27 +140,27 @@ export default {
   ],
   glosario: [
     {
-      termino: '<em>Demonym</em> / Gentilicio:',
+      termino: '<em>Demonym</em> / Gentilicio',
       significado:
         'es un adjetivo que expresa el origen geográfico o racial de la persona.',
     },
     {
-      termino: '<em>Hobby</em> / Pasatiempo:',
+      termino: '<em>Hobby</em> / Pasatiempo',
       significado:
         'es una actividad que la persona lleva a cabo para mantenerse entretenida durante un periodo de tiempo libre.',
     },
     {
-      termino: '<em>Introducing myself</em> / Presentación personal:',
+      termino: '<em>Introducing myself</em> / Presentación personal',
       significado:
         'información que se da ante una o varias personas respecto al nombre, apellido, edad, dirección, entre otros detalles que es necesario proporcionar de acuerdo con el contexto en el que se desarrolla la situación.',
     },
     {
-      termino: '<em>Personal pronouns</em> / Pronombres personales:',
+      termino: '<em>Personal pronouns</em> / Pronombres personales',
       significado:
         'son palabras que sustituyen al nombre, permitiendo nombrar a los seres, objetos y situaciones sin usar un sustantivo.',
     },
     {
-      termino: '<em>Time prepositions</em> / Preposiciones de tiempo:',
+      termino: '<em>Time prepositions</em> / Preposiciones de tiempo',
       significado:
         'son expresiones que nos dan información sobre el tiempo en que sucede algo.',
     },
@@ -194,31 +194,31 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable equipo de desarrollo curricular',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Miguel Ángel Cárdenas López',
         cargo: 'Experto temático',
         centro:
-          'CENIGRAF - Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+          'CENIGRAF - Centro para la Industria de la Comunicación Gráfica-Regional Distrito Capital ',
       },
       {
         nombre: 'Óscar Absalón Guevara',
         cargo: 'Diseñador instruccional',
         centro:
-          'Centro de la Industria, la Empresa y los Servicios – CIES - Regional Santander',
+          'Centro de la Industria, la Empresa y los Servicios–CIES-Regional Santander',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
         cargo: 'Asesora metodológica',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología-Regional Distrito Capital',
       },
       {
         nombre: 'Darío González',
         cargo: 'Corrector de estilo',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología-Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -226,48 +226,95 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Yuly Andrea Rey Quiñonez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios-Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego        ',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
+      },
+      {
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaimes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: '',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios-Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios-Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios-Regional Tolima',
       },
     ],
   },

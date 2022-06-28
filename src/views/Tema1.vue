@@ -214,7 +214,7 @@ s<template lang="pug">
                       :audio="require('@/assets/curso/audios/19.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-              p.mb-3.ms-4 Si, Joe envía la carpeta para el viernes.
+              p.mb-3.ms-4 No, Joe envía la carpeta para el viernes.
 
       .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="Until" :icono="require('@/assets/curso/temas/5.svg')")
           .row.justify-content-center.mb-1
@@ -285,7 +285,7 @@ s<template lang="pug">
                       :audio="require('@/assets/curso/audios/26.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-              p.mb-3.ms-4 Están disponibles las herramientas ahora?
+              p.mb-3.ms-4 ¿Están disponibles las herramientas ahora?
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Respuesta afirmativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
@@ -348,7 +348,7 @@ s<template lang="pug">
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Pregunta:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="Have the boys been playing in the park since 4 p.m.?"
+                      texto="Have the boys been playing in the park since 4 p. m.?"
                       :audio="require('@/assets/curso/audios/33.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
@@ -356,19 +356,19 @@ s<template lang="pug">
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Respuesta afirmativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="Yes, the boys have been playing in the park since 4 p.m. "
+                      texto="Yes, the boys have been playing in the park since 4 p. m. "
                       :audio="require('@/assets/curso/audios/34.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-              p.mb-3.ms-4 Si, los muchachos han estado jugando en el parque desde las 4 pm
+              p.mb-3.ms-4 Si, los muchachos han estado jugando en el parque desde las 4 p. m.
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Respuesta negativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="No, the boys haven’t been playing in the park since 4 p.m."
+                      texto="No, the boys haven’t been playing in the park since 4 p. m."
                       :audio="require('@/assets/curso/audios/35.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
-              p.mb-3.ms-4 No, los muchachos no han estado jugando en el parque desde las 4 pm
+              p.mb-3.ms-4 No, los muchachos no han estado jugando en el parque desde las 4 p. m.
       .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="For" :icono="require('@/assets/curso/temas/5.svg')")
           .row.justify-content-center.mb-1
             .col-lg-11
