@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'This is what I do every day.<br>Esto es lo que hago todos los días.    ',
+      'This is what I do every day.<br><span class=r-4>Esto es lo que hago todos los días.</span>    ',
     descripcionCurso:
       'En este componente formativo, se presenta el desarrollo de temáticas que le permitirán identificar expresiones básicas de empleo frecuente en inglés a partir de contextos cotidianos, permitiéndole el dominio de preposiciones de tiempo, pasatiempos, horas del día y gustos, a través de expresiones y ejemplos en el idioma inglés.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -18,6 +18,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-3'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/flag.svg'),
       },
     ],
   },
@@ -83,12 +87,12 @@ export default {
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',

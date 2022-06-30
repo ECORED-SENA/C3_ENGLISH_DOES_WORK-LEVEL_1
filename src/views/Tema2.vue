@@ -587,7 +587,7 @@
     p.mb-5(data-aos='fade-right') Durante el día, dependiendo de la hora, las personas realizan actividades, algunas veces por la mañana, por la tarde o por la noche. Para indicar la hora, se debe iniciar la oración con 
       span.r-3.fst-italic It’s, 
       | para luego indicar el tiempo, mediante la hora en punto o minutos antes o minutos después:
-    .tarjeta.bg-claro.rounded-0.color-primario.p-4
+    .tarjeta.bg-claro.rounded-0.color-primario.p-4.mb-5
       SlyderA.slyder-bottons.px-4
         .row.justify-content-center.align-items-center
           .col-md-3.mb-4.mb-md-0
@@ -825,7 +825,26 @@
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     p Faltan cinco para las ocho.
-        
+
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Actividad didáctica	
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/completar-espacios.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 <em>Observing a person’s routine.</em> / Observando la rutina de una persona.
+        p.mb-4 Indicar la hora y la actividad que hace el sujeto de acuerdo con la hora del día que marca el reloj.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Introducir texto mediante el teclado para responder preguntas formuladas sobre la hora y la rutina diaria de una persona.
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad2/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece    
 
 
 

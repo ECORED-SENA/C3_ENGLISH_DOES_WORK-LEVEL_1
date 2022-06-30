@@ -348,10 +348,28 @@
     p.mb-5(data-aos='fade-right') Además, también se pueden expresar preferencias 
       span.r-3.fst-italic (likes and dislikes) 
       | por acciones, que vienen indicadas por verbos.  
-    figure
+    figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/0s4z_tImzYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Actividad didáctica	
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 Do they like it or not? / ¿Les gusta o no les gusta?
+        p.mb-4 Indicar las preferencias o desagrados de los personajes de acuerdo con la situación observada.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Seleccionar la oración correspondiente de acuerdo con la situación que se presenta.
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad3/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece 
 </template>
 
 <script>
