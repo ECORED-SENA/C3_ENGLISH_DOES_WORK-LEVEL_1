@@ -21,7 +21,7 @@
     .tarjeta.bg-claro.color-acento-botones.px-5.pt-3
       .row.justify-content-center.align-items-end.mb-5
         .col-lg-4
-          img(data-aos='zoom-in-up')(src='@/assets/curso/temas/48.png', alt='')
+          img.d-md-block.d-none(data-aos='zoom-in-up')(src='@/assets/curso/temas/48.png', alt='')
         .col-lg-4
           img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/49.svg', alt='')
           TarjetaAudio.color-acento-contenido.bg-white.my-3(
@@ -30,7 +30,7 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
         .col-lg-4
-          img(data-aos='zoom-in-up')(src='@/assets/curso/temas/50.png', alt='')
+          img.d-md-block.d-none(data-aos='zoom-in-up')(src='@/assets/curso/temas/50.png', alt='')
     .tarjeta.position-relative.rounded-0.color-primario.bg-claro.margin-n.p-4.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-2.col-5.mb-lg-0.mb-3

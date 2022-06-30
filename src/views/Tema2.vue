@@ -155,7 +155,7 @@
           p.text-center
             span.r-3.fst-italic.fw-bold to have lunch
             br
-            | (comer/almorzar)
+            | (comer/<br>almorzar)
       .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/25.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/174.mp3')")
