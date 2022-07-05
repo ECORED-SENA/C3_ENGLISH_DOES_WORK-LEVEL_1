@@ -614,7 +614,7 @@ s<template lang="pug">
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Respuesta negativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="No, her baby didn’t cry durin the Marty’s graduation ceremony."
+                      texto="No, her baby didn’t cry during the Marty’s graduation ceremony."
                       :audio="require('@/assets/curso/audios/60.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
