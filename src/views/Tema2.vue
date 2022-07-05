@@ -380,7 +380,7 @@
         .img-animation
 
       .col-lg-7
-        #carouselExampleIndicators2.carousel.slide.indicators-none(data-bs-ride='carousel')
+        #carouselExampleIndicators2.carousel.slide.indicators-none(data-bs-ride='carousel' data-interval='false' data-ride='carousel')
           .carousel-indicators
             button.active(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
             button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='1' aria-label='Slide 2')
