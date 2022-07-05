@@ -23,7 +23,7 @@
         .col-lg-4
           img.d-md-block.d-none(data-aos='zoom-in-up')(src='@/assets/curso/temas/48.png', alt='')
         .col-lg-4
-          img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/49.svg', alt='')
+          img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/49.png', alt='')
           TarjetaAudio.color-acento-contenido.bg-white.my-3(
                 texto=""
                 :audio="require('@/assets/curso/audios/118.mp3')"
@@ -187,11 +187,11 @@
                         )
                     p.ms-4.mb-3 Tu adoras tu carro.
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
-                          texto="We adore the virgin."
+                          texto="We adore the Virgin."
                           :audio="require('@/assets/curso/audios/138.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
-                    p.ms-4.mb-3 Nosotros adoramos a la virgen.
+                    p.ms-4.mb-3 Nosotros adoramos a la Virgen.
       .col-lg-6
         .tarjeta.color-primario.p-4
           .tarjeta.rounded-0.color-acento-contenido.d-inline-block.p-2.mb-3

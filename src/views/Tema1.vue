@@ -214,7 +214,7 @@ s<template lang="pug">
                       :audio="require('@/assets/curso/audios/19.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-              p.mb-3.ms-4 No, Joe envía la carpeta para el viernes.
+              p.mb-3.ms-4 No, Joe no envía la carpeta para el viernes.
 
       .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="Until" :icono="require('@/assets/curso/temas/5.svg')")
           .row.justify-content-center.mb-1
@@ -486,11 +486,11 @@ s<template lang="pug">
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Respuesta negativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="Carmen takes a bath before leaving home."
+                      texto="No, children don’t pray before going to sleep"
                       :audio="require('@/assets/curso/audios/47.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
-              p.mb-3.ms-4 Carmen se baña antes de salir de casa.
+              p.mb-3.ms-4 No, los niños no rezan antes de ir a dormir.
       .tarjeta.color-acento-botones.rounded-0.py-4.py-md-5.px-5(titulo="After" :icono="require('@/assets/curso/temas/5.svg')")
           .row.justify-content-center.mb-1
             .col-lg-11
@@ -598,7 +598,7 @@ s<template lang="pug">
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Pregunta:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="Did her baby cry during Marty’s graduation ceremony?"
+                      texto="Did her baby cry during the Marty’s graduation ceremony?"
                       :audio="require('@/assets/curso/audios/58.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
@@ -606,7 +606,7 @@ s<template lang="pug">
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Respuesta afirmativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="Yes, her baby cried during Marty’s graduation ceremony."
+                      texto="Yes, her baby cried during the Marty’s graduation ceremony."
                       :audio="require('@/assets/curso/audios/59.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
@@ -614,7 +614,7 @@ s<template lang="pug">
             .col-lg-4.mb-lg-0.mb-3
               p.fw-bold.mb-3 Respuesta negativa:
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="No, her baby didn’t cry during Marty’s graduation ceremony."
+                      texto="No, her baby didn’t cry durin the Marty’s graduation ceremony."
                       :audio="require('@/assets/curso/audios/60.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )

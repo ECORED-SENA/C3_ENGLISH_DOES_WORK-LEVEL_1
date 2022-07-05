@@ -207,7 +207,7 @@
       .col-lg-3.col-6.mb-lg-0.mb-3
         img(data-aos='zoom-in-up')(src='@/assets/curso/temas/31.svg', alt='')
       .col-lg-7
-        #carouselExampleIndicators.carousel.slide.indicators-none(data-bs-ride='carousel')
+        #carouselExampleIndicators.carousel.slide.indicators-none(data-bs-ride='carousel' data-interval='false' data-ride='carousel')
           .carousel-indicators
             button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
             button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
@@ -482,7 +482,7 @@
                       :audio="require('@/assets/curso/audios/85.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-                  p Liz teje gorritos para su bebé.
+                  p Liz teje gorros para su bebé.
             .carousel-item.px-5.tarjeta.rounded-0.color-acento-contenido
               .row.justify-content-center.align-items-center.my-4
                 .col-9
