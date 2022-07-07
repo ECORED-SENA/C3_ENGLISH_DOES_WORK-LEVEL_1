@@ -207,7 +207,7 @@
       .col-lg-3.col-6.mb-lg-0.mb-3
         img(data-aos='zoom-in-up')(src='@/assets/curso/temas/31.svg', alt='')
       .col-lg-7
-        #carouselExampleIndicators.carousel.slide.indicators-none(data-bs-ride='carousel' data-interval='false' data-ride='carousel')
+        #carouselExampleIndicators.carousel.slide.indicators-none(data-ride="carousel" data-bs-interval="false" data-interval="false")
           .carousel-indicators
             button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
             button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
@@ -380,7 +380,7 @@
         .img-animation
 
       .col-lg-7
-        #carouselExampleIndicators2.carousel.slide.indicators-none(data-bs-ride='carousel' data-interval='false' data-ride='carousel')
+        #carouselExampleIndicators2.carousel.slide.indicators-none(data-bs-ride='carousel' data-bs-interval="false" data-interval='false' data-ride='carousel')
           .carousel-indicators
             button.active(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
             button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='1' aria-label='Slide 2')
