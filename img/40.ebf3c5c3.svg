@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="292" height="354" viewBox="0 0 292 354">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_34786" data-name="Rectángulo 34786" width="292" height="354" transform="translate(-4338 -7144)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Elipse_4820" x="7.626" y="40.15" width="270.152" height="273.759" filterUnits="userSpaceOnUse">
+      <feOffset dy="3.607" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_40" data-name="40" transform="translate(4338 7144)" clip-path="url(#clip-path)">
+    <g id="Grupo_84995" data-name="Grupo 84995" transform="translate(21.624 12.583)">
+      <path id="Trazado_118704" data-name="Trazado 118704" d="M.7,262.358c3.746-31.522,21.082-59.724,29.161-90.422,6.049-22.984,6.812-46.973,9.787-70.552s8.538-47.653,22.67-66.762C81.152,9.155,114.947-4.307,146.133,1.235s58.274,29.822,67.182,60.219c11.488,39.2-5.943,80.789-4.979,121.624.534,22.669,6.75,44.763,10.5,67.126s4.874,46.159-4.259,66.915c-12.209,27.743-41.262,45.332-71.083,50.754-29.671,5.395-60.7.109-90.132-4.633-23.676-3.814-39.493-31.689-46.881-52.277A107.12,107.12,0,0,1,.7,262.358Z" transform="matrix(0.921, 0.391, -0.391, 0.921, -4241.996, -7201.239)" fill="#e1e8ff" opacity="0.6"/>
+      <g id="Grupo_84857" data-name="Grupo 84857" transform="translate(-4351.997 -7116.433)">
+        <g transform="matrix(1, 0, 0, 1, -7.63, -40.15)" filter="url(#Elipse_4820)">
+          <circle id="Elipse_4820-2" data-name="Elipse 4820" cx="135.076" cy="135.076" r="135.076" transform="translate(7.63 40.15)" fill="#ff5f65"/>
+        </g>
+        <path id="Trazado_118698" data-name="Trazado 118698" d="M548.826,528.731c-28.513,28.509-67.647,53.882-107.987,53.882s-79.476-25.373-107.987-53.882a151.512,151.512,0,0,1-14.316-16.571,135.118,135.118,0,0,0,245.3-.934A151.772,151.772,0,0,1,548.826,528.731Z" transform="translate(-305.891 -319.969)" fill="#ff5f65" opacity="0.3" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Trazado_118699" data-name="Trazado 118699" d="M549.8,522.315A112.71,112.71,0,1,1,437.1,409.6,112.709,112.709,0,0,1,549.8,522.315Z" transform="translate(-302.02 -387.238)" fill="#f2f2f2"/>
+        <path id="Trazado_118700" data-name="Trazado 118700" d="M341.511,458.12a126.215,126.215,0,0,1,178.491,0,125.19,125.19,0,0,1,13.176,15.541,112.742,112.742,0,0,0-200.317-5.935A125.229,125.229,0,0,1,341.511,458.12Z" transform="translate(-296.409 -387.238)" fill="#f2f2f2" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <text id="_12" data-name="12" transform="translate(133.12 54.101)" fill="#4d4d4d" font-size="28" font-family="SegoeUI, Segoe UI"><tspan x="-15.094" y="0">12</tspan></text>
+        <text id="_6" data-name="6" transform="translate(134.107 232.801)" fill="#4d4d4d" font-size="31" font-family="SegoeUI, Segoe UI"><tspan x="-8.355" y="0">6</tspan></text>
+        <text id="_3" data-name="3" transform="translate(221.957 145.951)" fill="#4d4d4d" font-size="32" font-family="SegoeUI, Segoe UI"><tspan x="-8.625" y="0">3</tspan></text>
+        <text id="_9" data-name="9" transform="translate(46.256 144.951)" fill="#4d4d4d" font-size="31" font-family="SegoeUI, Segoe UI"><tspan x="-8.355" y="0">9</tspan></text>
+        <text id="_2" data-name="2" transform="translate(212.326 101.218)" fill="#4d4d4d" font-size="32" font-family="SegoeUI, Segoe UI"><tspan x="-8.625" y="0">2</tspan></text>
+        <text id="_10" data-name="10" transform="translate(56.549 101.218)" fill="#4d4d4d" font-size="32" font-family="SegoeUI, Segoe UI"><tspan x="-17.25" y="0">10</tspan></text>
+        <text id="_1" data-name="1" transform="translate(179.876 67.154)" fill="#4d4d4d" font-size="29" font-family="SegoeUI, Segoe UI"><tspan x="-7.816" y="0">1</tspan></text>
+        <text id="_11" data-name="11" transform="translate(87.309 66.155)" fill="#4d4d4d" font-size="28" font-family="SegoeUI, Segoe UI"><tspan x="-15.094" y="0">11</tspan></text>
+        <text id="_5" data-name="5" transform="translate(180.552 221.989)" fill="#4d4d4d" font-size="31" font-family="SegoeUI, Segoe UI"><tspan x="-8.355" y="0">5</tspan></text>
+        <text id="_7" data-name="7" transform="translate(87.633 217.992)" fill="#4d4d4d" font-size="27" font-family="SegoeUI, Segoe UI"><tspan x="-7.277" y="0">7</tspan></text>
+        <text id="_4" data-name="4" transform="translate(212.326 187.751)" fill="#4d4d4d" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="-8.086" y="0">4</tspan></text>
+        <text id="_8" data-name="8" transform="translate(56.197 187.753)" fill="#4d4d4d" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="-8.086" y="0">8</tspan></text>
+        <path id="Trazado_118701" data-name="Trazado 118701" d="M5.893,0,0,8.349l1.27,77.3h9.246l1.269-77.3Z" transform="matrix(0.839, 0.545, -0.545, 0.839, 176.506, 60.985)" fill="#ff5f65"/>
+        <path id="Trazado_118702" data-name="Trazado 118702" d="M375.965,526.15l9.278-4.283,22.328-41.215-8.006-4.622-24.528,39.944Z" transform="translate(-268.491 -343.267)" fill="#ff5f65"/>
+        <path id="Trazado_118703" data-name="Trazado 118703" d="M404.957,481.055a9.121,9.121,0,1,1-9.121-9.121A9.12,9.12,0,0,1,404.957,481.055Z" transform="translate(-260.76 -345.978)" fill="#4d4d4d"/>
+      </g>
+    </g>
+  </g>
+</svg>
